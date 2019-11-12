@@ -2,11 +2,10 @@
 #include <ESP8266HTTPClient.h>
 #include <ArduinoJson.h>
 #include <Servo.h>
-const char* ssid = "AndroidAP";
-const char* password = "pxlj9479";
+const char* ssid = "";
+const char* password = "";
 const char* api_url = "http://5.100.255.196/waveclock/";
 const int httpsPort = 443;
-const char fingerprint[] PROGMEM = "ff 68 80 2d 5e 35 c4 dc 61 e3 6b f5 51 51 9e 73 d0 f6 0e f6";
 Servo servoWaveHeight;
 Servo servoWindDirection;
 int angleWaveHeight, angleWindDir;
