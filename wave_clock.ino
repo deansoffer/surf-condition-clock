@@ -4,7 +4,7 @@
 #include <Servo.h>
 const char* ssid = "";
 const char* password = "";
-const char* api_url = "http://5.100.255.196/waveclock/";
+const char* api_url = "/waveclock/";
 const int httpsPort = 443;
 Servo servoWaveHeight;
 Servo servoWindDirection;
